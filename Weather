@@ -1,0 +1,14 @@
+const multiplyByNineFifths = (celsius) => {
+  return celsius * (9/5);
+};
+
+const getFahrenheit = (celsius) => {
+  return multiplyByNineFifths(celsius) + 32;
+};
+
+console.log('The temperature is ' + getFahrenheit(15) + '°F');
+
+// cleaned up version
+const volumeOfSphere = diameter => (1/6) * Math.PI * diameter * diameter * diameter;
+
+console.log('The volume of a sphere is ' + volumeOfSphere(10) + ' cubic centimeters');
