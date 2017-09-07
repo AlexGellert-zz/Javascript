@@ -1,0 +1,45 @@
+//more advanced
+
+let vacationSpots = ['Colorado', 'Cuba', 'Puerto Plata']
+
+for (let b = 0; b<vacationSpots.length; b++) {
+  console.log ('Every day I see my ' + vacationSpots[b] + ' Paradise')
+}
+
+
+
+
+//basic codeacademy loop
+
+let vacationSpots = ['Colorado', 'Cuba', 'Puerto Plata'];
+
+for (let vacationSpotsIndex = 0; vacationSpotsIndex < vacationSpots.length; vacationSpotsIndex++) {
+  console.log(vacationSpots[vacationSpotsIndex]);
+}
+
+let vacationSpots = ['Mozambique', 'Thailand', 'Bolivia'];
+
+for (let vacationSpotIndex = 0; vacationSpotIndex < vacationSpots.length; vacationSpotIndex++) {
+  console.log('I would love to visit ' + vacationSpots[vacationSpotIndex]);
+}
+
+
+//reverse loop
+
+let vacationSpots = ['Mozambique', 'Thailand', 'Bolivia'];
+
+for (let vacationSpotIndex = vacationSpots.length - 1; vacationSpotIndex >=0; vacationSpotIndex--) {
+  console.log('I would love to visit ' + vacationSpots[vacationSpotIndex]);
+}
+
+// working on
+
+let myPlaces = ['Germany', 'Ireland', 'Japan']
+let friendPlaces = ['England', 'Japan', 'Italy']
+
+for (let myPlacesIndex = 0; myPlacesIndex < myPlaces.length; myPlacesIndex++) {
+      console.log (myPlaces[myPlacesIndex]);
+  for (let friendPlacesIndex = 0; friendPlacesIndex < friendPlaces.length; friendPlacesIndex++) {
+    console.log(friendPlaces[friendPlacesIndex]);
+  }
+}
